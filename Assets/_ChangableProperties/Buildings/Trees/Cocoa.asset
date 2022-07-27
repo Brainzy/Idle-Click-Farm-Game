@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eec0bd67a4f2fe49aa7b7aafe10b6c7, type: 3}
+  m_Name: Cocoa
+  m_EditorClassIdentifier: 
+  displayName: Cocoa
+  cost: 2
+  manualPlacement: 1
+  spaceTakenUp: 1
+  spaceTakenDown: 1
+  spaceTakenLeft: 1
+  spaceTakenRight: 1
+  constructingTimeSeconds: 0
+  piecesByLevel:
+  - {x: 0, y: 5}
+  myPrefab: {fileID: 8882187030129510724, guid: 1fe2e3ff510dca84ab09bf6ba415cc94, type: 3}
+  producesSoundAfterSeconds: 0
+  isAnimal: 0
+  isGrowable: 1
+  myGrowablePrefabs:
+  - {fileID: 8882187030129510724, guid: 1fe2e3ff510dca84ab09bf6ba415cc94, type: 3}
+  - {fileID: 8096799518718471886, guid: ec812d9bc0f444d4a89e434b21a0e601, type: 3}
+  myGrowableTimers:
+  - 10
+  cutTree: {fileID: 2051357052723235883, guid: 5b73fcb2e0b358a4fa113702c0f3e11b, type: 3}
+  treeLeaf: {fileID: 2419113228673874873, guid: ad85f8c5d80c3c44eb922fd037082dc9, type: 3}
+  makesCellTypes: 
+  allowedCellTypes: 
+  interactivitieLinks:
+  - {fileID: 11400000, guid: d850c56b096efa4459cbef84fabd5989, type: 2}
+  interactionResultName: Cocoa
+  interactionResultSellPrice: 6

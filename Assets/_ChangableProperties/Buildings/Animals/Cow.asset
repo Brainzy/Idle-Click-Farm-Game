@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eec0bd67a4f2fe49aa7b7aafe10b6c7, type: 3}
+  m_Name: Cow
+  m_EditorClassIdentifier: 
+  displayName: Cow
+  cost: 5
+  manualPlacement: 0
+  spaceTakenUp: 0
+  spaceTakenDown: 0
+  spaceTakenLeft: 0
+  spaceTakenRight: 0
+  constructingTimeSeconds: 0
+  piecesByLevel:
+  - {x: 0, y: 100}
+  myPrefab: {fileID: 3853994970867447598, guid: 037e92ce74998fe4cb0a1830fcc0ea86, type: 3}
+  producesSoundAfterSeconds: 15
+  isAnimal: 1
+  isGrowable: 0
+  myGrowablePrefabs: []
+  myGrowableTimers:
+  - 5
+  cutTree: {fileID: 0}
+  treeLeaf: {fileID: 0}
+  makesCellTypes: 
+  allowedCellTypes: 04000000
+  interactivitieLinks:
+  - {fileID: 11400000, guid: 413c1ac4761f5b74ca31b4186ad37d55, type: 2}
+  interactionResultName: Milk
+  interactionResultSellPrice: 3

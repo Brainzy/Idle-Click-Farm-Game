@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7063448395303348185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7063448395303348184}
+  - component: {fileID: 4903320055410446890}
+  - component: {fileID: 705931415}
+  - component: {fileID: 705931416}
+  - component: {fileID: 4886026338337658852}
+  m_Layer: 0
+  m_Name: Villager1 Buys Eggs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7063448395303348184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063448395303348185}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 389.99332, y: 0, z: 227.98958}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7317453950969485773}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4903320055410446890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063448395303348185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afdc1756cb8f1694eb00023ac12d0e66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAnimator: {fileID: 7063448394868325923}
+  walkAnimName: Standard Walk
+  idleAnimName: Breathing Idle+skin
+  celebrateAnimName: Celebrate
+  waveAnimName: Waving
+  minRandomWaveTime: 3
+  maxRandomWaveTime: 5
+  walkerOnBezierPath: {fileID: 705931415}
+  lookAtCameraRotation: {x: 0, y: -48, z: 0}
+--- !u!114 &705931415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063448395303348185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deada0474bcd7014db9e6b61673605e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAnimators: []
+  eventNameToWalkToDespawn: InteractedWithVillager
+  distanceTravelled: 0
+  speed: 0
+  pathCreator: {fileID: 0}
+  stopped: 0
+  rotationAdjustment: {x: 0, y: 0, z: 0}
+  returnPath: {fileID: 0}
+  deactivateAnimatorsOnMoveEnd: 0
+  visitorAnimationController: {fileID: 4903320055410446890}
+--- !u!65 &705931416
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063448395303348185}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5509033, y: 5.3705897, z: 2.357193}
+  m_Center: {x: 0.096832275, y: 2.7322142, z: 0.13883209}
+--- !u!114 &4886026338337658852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063448395303348185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd85a7753c4ec034185e8978c9dfe969, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myText: "Ol\xE1! I heard you've taken over from my favourite farmer! I used to
+    love the eggs from the chickens here! Could I have some now?"
+  myIndex: 0
+  myBuyingAmount: 3
+--- !u!1001 &7063448394868325926
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7063448395303348184}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1d209fa2d107e6d45aa726ddf171ef74, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d209fa2d107e6d45aa726ddf171ef74, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d209fa2d107e6d45aa726ddf171ef74, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d209fa2d107e6d45aa726ddf171ef74, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d209fa2d107e6d45aa726ddf171ef74, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d209fa2d107e6d45aa726ddf171ef74, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d209fa2d107e6d45aa726ddf171ef74, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d209fa2d107e6d45aa726ddf171ef74, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d209fa2d107e6d45aa726ddf171ef74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d209fa2d107e6d45aa726ddf171ef74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d209fa2d107e6d45aa726ddf171ef74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1d209fa2d107e6d45aa726ddf171ef74, type: 3}
+      propertyPath: m_Name
+      value: Villager1_MODEL_and_Anim_@Breathing Idle+skin
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d209fa2d107e6d45aa726ddf171ef74, type: 3}
+--- !u!4 &7317453950969485773 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1d209fa2d107e6d45aa726ddf171ef74, type: 3}
+  m_PrefabInstance: {fileID: 7063448394868325926}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7982350195262276471 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1d209fa2d107e6d45aa726ddf171ef74, type: 3}
+  m_PrefabInstance: {fileID: 7063448394868325926}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &7063448394868325923
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7982350195262276471}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 245ecca6f41d6e54e90e423722facf69, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

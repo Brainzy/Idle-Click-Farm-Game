@@ -1,0 +1,375 @@
+fileFormatVersion: 2
+guid: 176dfa8de5edf9d499c8158df9dc51d7
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Beige
+    second: {fileID: -2867747967464863736, guid: 8daf7e91dc794724dacd4e79debcd5df, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue_dark
+    second: {fileID: 2100000, guid: 18adadbf688982543b13cd878b264d3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brown_Dark_Rough
+    second: {fileID: -1805383010809988087, guid: 8daf7e91dc794724dacd4e79debcd5df, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brown_Light_Rough
+    second: {fileID: -1182553275805574432, guid: 8daf7e91dc794724dacd4e79debcd5df, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass-1
+    second: {fileID: 2100000, guid: b116bab03e2e86041961de83092374a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray
+    second: {fileID: 2100000, guid: f28069506f6ac844e96b4d729ecc70a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray_darker
+    second: {fileID: 2100000, guid: d371a0f1c836beb49b9d676345a3abb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray_light
+    second: {fileID: 2100000, guid: c3887db532482e04a9680e5e7b79b2e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Green
+    second: {fileID: -2505642851634945670, guid: c949ae7f992972c4fa9699f4f6573ed4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Green_dark
+    second: {fileID: -6458755253713316840, guid: 7fd2aca3f96b6de41bccfeed1bcdc39f, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Green_dark.001
+    second: {fileID: 3290062588143225864, guid: 73242769c67822c489676bb79f1c24a9, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lighthouse_window
+    second: {fileID: 2100000, guid: 7176f3f1f3c60374f9aae487d593999f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 5b1634a6cb22649429400d364b840c9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Orange.001
+    second: {fileID: 2100000, guid: e633e8bcb47644849bd001dfd2bf97e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Orange_light
+    second: {fileID: 2100000, guid: 2b3d5298d38d83f4daf0957a7eb6fb9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Orange_light.001
+    second: {fileID: 2100000, guid: 742467d6957b5454eb571981ddc9eebb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pink
+    second: {fileID: -4318571312361772713, guid: 077196a816780c74b92aae6f6f769aca, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Purple_dark_rough
+    second: {fileID: -6695527119799796440, guid: 3bc5a79570772ca48be4169b157ee59e, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red
+    second: {fileID: 2100000, guid: 4030f9d91f72a9b4693657264d90c835, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RedOrange
+    second: {fileID: 2100000, guid: 60ad67cf30a7da4459d121acd5b89129, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RedOrange.001
+    second: {fileID: 2100000, guid: ec89b929b2d1d3a44b44fd6b24f9853c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RedOrange.002
+    second: {fileID: 2100000, guid: 46e6e559cb4d424408dcb41c0b8eb531, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RedOrange.Dark
+    second: {fileID: 2100000, guid: da27271f02732fc4eb017350c22cd4ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RedOrange.Dark.001
+    second: {fileID: 2100000, guid: 29c1ef2836ba574449fd837e8ada8d5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Spike
+    second: {fileID: 2100000, guid: 4d315c1846eca4f449b7502143ce27bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yellow_emission
+    second: {fileID: 2100000, guid: 63a4130a8fc7de149928f20f6942b21f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: big_leaves1
+    second: {fileID: 2100000, guid: d5424c65a83cb4344a8ce1d70b1ea868, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: big_rock
+    second: {fileID: 2100000, guid: 4f87dfa61efc4ae49a06d6afb3dc8e22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bush1
+    second: {fileID: 2100000, guid: fa45bcef4a215b74ab5d4613b013efc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cloves
+    second: {fileID: 2100000, guid: 263cafd78625b9f41818773b1c79dfa9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: coconut_tree_small
+    second: {fileID: 2100000, guid: b8219e26ba5b3a94b937017944fcc0f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: creamy_white
+    second: {fileID: 2100000, guid: d3c22ef44e069e447bb7735c0619f659, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dandelion
+    second: {fileID: 2100000, guid: d23e9ff50f59ee845b9529c316877c9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: danger_sign
+    second: {fileID: 2100000, guid: 68c8a7aafa864084abf1d441cbc6a574, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grass_tall
+    second: {fileID: 2100000, guid: 5e45b0fca2dc5264d84c148c9adaeb37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: layer_0_bush_edge_left
+    second: {fileID: 2100000, guid: a7b781418edf43d4391bc5ea6b2709a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: layer_0_bush_edge_right
+    second: {fileID: 2100000, guid: ccf2869ae4229ec40afadfb781458230, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: layer_1_trees_full version
+    second: {fileID: 2100000, guid: 72515c66c50bbfc40b818f6e191def45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: layer_2_trees
+    second: {fileID: 2100000, guid: 95cf82781fabd424caad4f138e8bb163, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leave
+    second: {fileID: 2100000, guid: 3adb922340d1dcb439a6d101de12222f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plant1
+    second: {fileID: 2100000, guid: 6955b082fbf90db408dd25236bfb9f43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plant2
+    second: {fileID: 2100000, guid: 194f3a89bee29d7459582bf6cea31cc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plant3
+    second: {fileID: 2100000, guid: c79c9bbbf1c231845a26487399b61cab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plant4
+    second: {fileID: 2100000, guid: a0c67454d48c1f64585d5a349219e29c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plant6
+    second: {fileID: 2100000, guid: 4741c7b6024b5c9408dbf71f2709430a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plant_1
+    second: {fileID: 2100000, guid: 8bd30bd9b4b5b9e47bc0a9cabb3973a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plant_5
+    second: {fileID: 2100000, guid: 4277bb163eda4ad48a1fa805048125ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plant_6
+    second: {fileID: 2100000, guid: 1f2bac5eedc3f504386d9bd68b0d51cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: soy_leaf
+    second: {fileID: 2100000, guid: 436a2b1531c6437409a09138752d0ed2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: text_highway
+    second: {fileID: 2100000, guid: 1623bb5826a250d46b3f7ce3d1eb678a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: text_jungle_ground
+    second: {fileID: 2100000, guid: a7e351eb72a87204eb62ab72f81967d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture_cliff
+    second: {fileID: 2100000, guid: 091f4c4c991987d48a2b57d273531675, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture_ground
+    second: {fileID: 2100000, guid: b7571676b80ce3541b6aee7c3816ee27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture_hay
+    second: {fileID: 2100000, guid: d4e8e2cff19ae044fb5cee0a9709e265, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 0
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

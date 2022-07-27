@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eec0bd67a4f2fe49aa7b7aafe10b6c7, type: 3}
+  m_Name: Palmito
+  m_EditorClassIdentifier: 
+  displayName: Palmito
+  cost: 1
+  manualPlacement: 0
+  spaceTakenUp: 0
+  spaceTakenDown: 0
+  spaceTakenLeft: 0
+  spaceTakenRight: 0
+  constructingTimeSeconds: 0
+  piecesByLevel:
+  - {x: 0, y: 4}
+  - {x: 1, y: 5}
+  - {x: 2, y: 6}
+  myPrefab: {fileID: 7085545117068599363, guid: bcc51d132d07a4f4190f549467b60e48, type: 3}
+  producesSoundAfterSeconds: 0
+  isAnimal: 0
+  isGrowable: 1
+  myGrowablePrefabs:
+  - {fileID: 7085545117068599363, guid: bcc51d132d07a4f4190f549467b60e48, type: 3}
+  - {fileID: 5673975265254575998, guid: 1e81ba57a57488945899b76f1232b491, type: 3}
+  myGrowableTimers:
+  - 3
+  cutTree: {fileID: 775598285391709532, guid: 3d1a951b29d123f40ac0d38ae4c1c0ca, type: 3}
+  treeLeaf: {fileID: 2419113228673874873, guid: ad85f8c5d80c3c44eb922fd037082dc9, type: 3}
+  makesCellTypes: 
+  allowedCellTypes: 
+  interactivitieLinks:
+  - {fileID: 11400000, guid: d850c56b096efa4459cbef84fabd5989, type: 2}
+  interactionResultName: Palmito
+  interactionResultSellPrice: 1

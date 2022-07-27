@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eec0bd67a4f2fe49aa7b7aafe10b6c7, type: 3}
+  m_Name: Banana
+  m_EditorClassIdentifier: 
+  displayName: Banana
+  cost: 0
+  manualPlacement: 1
+  spaceTakenUp: 1
+  spaceTakenDown: 1
+  spaceTakenLeft: 1
+  spaceTakenRight: 1
+  constructingTimeSeconds: 0
+  piecesByLevel:
+  - {x: 0, y: 4}
+  - {x: 1, y: 6}
+  myPrefab: {fileID: 7207851234516046162, guid: 92b57addc177d05408268794c25e1892, type: 3}
+  producesSoundAfterSeconds: 0
+  isAnimal: 0
+  isGrowable: 1
+  myGrowablePrefabs:
+  - {fileID: 7207851234516046162, guid: 92b57addc177d05408268794c25e1892, type: 3}
+  - {fileID: 5014491346477172719, guid: ccd250c4c7d199145a09ab0f0a53b64b, type: 3}
+  myGrowableTimers:
+  - 10
+  cutTree: {fileID: 1705246422075202456, guid: 051d78b6769f9454eb9402da13b55536, type: 3}
+  treeLeaf: {fileID: 1604918313456759629, guid: 12d286b82c444bd4491cf612d391b2e2, type: 3}
+  makesCellTypes: 
+  allowedCellTypes: 
+  interactivitieLinks:
+  - {fileID: 11400000, guid: d850c56b096efa4459cbef84fabd5989, type: 2}
+  interactionResultName: Banana
+  interactionResultSellPrice: 4
